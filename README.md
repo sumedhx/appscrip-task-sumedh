@@ -64,8 +64,7 @@ This project is built as part of the Appscrip task. It includes core UI implemen
 
 ## ⚠️ Known Limitation
 
-* The **sidebar is not fully responsive in mobile view**.
-  Due to time constraints, I was not able to complete the mobile responsiveness behavior for the sidebar (e.g., toggle menu / collapse functionality).
+* The **sidebar is not fully responsive in mobile view**. I was not able to complete the mobile responsiveness behavior for the sidebar (e.g., toggle menu / collapse functionality).
 
 All other sections are implemented and working as expected.
 
