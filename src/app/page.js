@@ -6,12 +6,30 @@ import Footer from "@/components/Footer";
 import MainLayout from "@/components/MainLayout";
 
 async function getProducts() {
-  const res = await fetch("https://fakestoreapi.com/products", {
-    cache: "no-store",
-  });
+  try {
+    const res = await fetch("https://fakestoreapi.com/products", {
+      cache: "no-store",
+    });
 
-  return res.json();
+    if (!res.ok) {
+      console.error("API failed:", res.status);
+      return [];
+    }
+
+    const contentType = res.headers.get("content-type");
+
+    if (!contentType || !contentType.includes("application/json")) {
+      console.error("Not JSON response");
+      return [];
+    }
+
+    return await res.json();
+  } catch (error) {
+    console.error("Fetch error:", error);
+    return [];
+  }
 }
+
 
 export default async function Home() {
   const products = await getProducts();
