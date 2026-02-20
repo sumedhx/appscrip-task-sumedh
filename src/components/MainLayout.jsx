@@ -43,15 +43,6 @@ export default function MainLayout({ products }) {
 
     setDisplayProducts(filtered);
   }, [selectedFilters, sortOption, products]);
-  
-  useEffect(() => {
-    if (showFilter) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-  }, [showFilter]);
-
 
   return (
     <>

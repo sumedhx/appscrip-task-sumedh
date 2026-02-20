@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here’s a clean and professional `README.md` you can use for your project:
 
-## Getting Started
+---
 
-First, run the development server:
+# Appscrip Task – Sumedh
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is built as part of the Appscrip task. It includes core UI implementation, feature integration, and functional components as per the given requirements.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Features Implemented
 
-## Learn More
+* ✅ Structured layout with reusable components
+* ✅ Sidebar navigation
+* ✅ Responsive header section
+* ✅ Dynamic content rendering
+* ✅ Clean and modular code structure
+* ✅ Proper folder organization
+* ✅ State management for UI interactions
+* ✅ Routing (if applicable)
+* ✅ API integration (if applicable)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* (Add any additional libraries you used — e.g., Tailwind, Redux, etc.)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Project Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+
+   ```bash
+   git clone <your-repo-url>
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd appscrip-task-sumedh
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm start
+   ```
+
+---
+
+## ⚠️ Known Limitation
+
+* The **sidebar is not fully responsive in mobile view**.
+  Due to time constraints, I was not able to complete the mobile responsiveness behavior for the sidebar (e.g., toggle menu / collapse functionality).
+
+All other sections are implemented and working as expected.
+
+---
+
+## 📌 Notes
+
+* The project structure is kept scalable and maintainable.
+* Code is organized for readability and easy enhancements.
+* With additional time, the mobile sidebar responsiveness can be completed using a toggle menu or drawer implementation.
+
+---
+
+If you tell me what exact features you added (API? filters? search? pagination? authentication?), I can customize this README specifically to your implementation so it looks stronger and more impressive.

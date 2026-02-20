@@ -29,12 +29,6 @@ export default function Sidebar({ selectedFilters, setSelectedFilters }) {
   };
 
   return (
-    <div className={`mobileSidebarOverlay ${isOpen ? "show" : ""}`}>
-      <div className="mobileSidebar">
-        <div className="mobileSidebarHeader">
-          <h3>Filters</h3>
-          <button onClick={onClose}>✕</button>
-        </div>
         <aside className="sidebar">
           {filters.map((filter, index) => {
             const selectedInSection = filter.options.filter((option) =>
@@ -90,7 +84,5 @@ export default function Sidebar({ selectedFilters, setSelectedFilters }) {
             </button>
           )}
         </aside>
-      </div>
-    </div>
   );
 }
